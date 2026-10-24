@@ -1,0 +1,23 @@
+{
+  "name": "fretzee-obsidian-publish",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Explicit one-way document publication from Obsidian to Fretzee.",
+  "scripts": {
+    "build": "tsc --noEmit && node esbuild.config.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "package": "npm run build && node scripts/package.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "0.28.2",
+    "obsidian": "1.14.4",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,4 @@
+schema: spec-driven
+context: |
+  Independent MIT Obsidian plugin. Explicit one-way upload to private Fretzee drafts.
+  Obsidian owns editing; publication and access policy are owner actions in Studio.

@@ -1,0 +1,10 @@
+{
+  "id": "fretzee-publish",
+  "name": "Fretzee Publish",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "Send selected Markdown notes and folders to Fretzee as private drafts for explicit web publication.",
+  "author": "Sébastien Ferry",
+  "authorUrl": "https://github.com/sebastienferry",
+  "isDesktopOnly": false
+}
